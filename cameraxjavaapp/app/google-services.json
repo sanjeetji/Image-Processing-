@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "654999119728",
+    "project_id": "camerax-java-demo-d106a",
+    "storage_bucket": "camerax-java-demo-d106a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654999119728:android:0a4654b0a8a10b5d9751b5",
+        "android_client_info": {
+          "package_name": "com.sanjeet.cameraxjavademo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654999119728-u0cq1arhcbua0c25r6rs2vq36n78a98u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAg8hh_ZN1SQwRAp9jMZV7AJt3I5tOU04U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654999119728-u0cq1arhcbua0c25r6rs2vq36n78a98u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

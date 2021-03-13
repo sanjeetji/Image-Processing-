@@ -1,0 +1,105 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF000000">
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="110dp"
+        android:contentDescription="@string/preview_area"
+        android:importantForAccessibility="no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="#fff"
+        app:layout_constraintTop_toBottomOf="@id/previewView"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/lay1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:background="#fff"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:weightSum="3">
+            <ImageView
+                android:id="@+id/legal"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:contentDescription="@string/capture"
+                android:src="@drawable/doc_ic" />
+            <ImageView
+                android:id="@+id/a4"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:layout_marginStart="50dp"
+                android:contentDescription="@string/capture"
+                android:src="@drawable/doc_ic" />
+            <ImageView
+                android:id="@+id/letter"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:layout_marginStart="50dp"
+                android:contentDescription="@string/capture"
+                android:src="@drawable/doc_ic" />
+            <ImageView
+                android:id="@+id/auto"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:layout_marginStart="50dp"
+                android:contentDescription="@string/capture"
+                android:src="@drawable/black_doc_ic" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:background="#fff">
+            <ImageView
+                android:id="@+id/gallary"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:contentDescription="@string/capture"
+                android:src="@drawable/gallary_ic" />
+            <ImageView
+                android:id="@+id/captureImg"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_marginStart="50dp"
+                android:contentDescription="@string/capture"
+                android:src="@drawable/camera_ic" />
+            <TextView
+                android:id="@+id/done"
+                android:layout_width="wrap_content"
+                android:layout_height="30sp"
+                android:layout_marginStart="50dp"
+                android:text="Done"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                android:contentDescription="@string/capture"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
